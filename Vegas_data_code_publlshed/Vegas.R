@@ -10,7 +10,6 @@ Jer$PnL = NULL
 Jer$ROI <- Jer$Earned - Jer$Invested
 colnames(Jer)[7] <- "Percent Change"
 
-
 # new df to store long/lat of each casino
 casino <- data.frame("Casino" = Jer$Casino, "address" = "TBD", "lat" = 0, "long" = 0)
 View(casino)
